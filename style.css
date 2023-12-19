@@ -186,6 +186,12 @@ img.Hockey{
     height: auto !important;
     vertical-align: middle !important;
     display: inline-block !important;
+    transition: 0,5s;
+    object-fit: cover;
+    border: 1px solid red;
+  }
+  .img-fluid:hover{
+    transform: scale(1.5) ;
   }
   .grid-wrapper > div {
     display: flex !important;
